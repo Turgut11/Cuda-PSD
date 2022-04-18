@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --tit : 'Titillium Web', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    font: 600 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+padding: 30px 80px;
+border: none;
+border-radius: 4px;
+}
+
+
+/* header css start */
+
+
+header{
+    background-color: #87509c;
+}
+
+
+header nav ul{
+    float: right;
+    padding-top: 5px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    font: 400 16px var(--tit);
+line-height: 18px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 25px;
+padding: 10px 15px;
+}
+
+header nav{
+    padding-top: 55px;
+}
+
+
+header nav .active, header nav ul li a:hover{
+    background-color: #643a79;
+    border-radius: 4px;
+
+}
+
+.header-body h1{
+    font: bold 42px var(--tit);
+line-height: 49px;
+color: #f7f3ea;
+text-align: center;
+margin-top: 150px;
+}
+
+.header-body{
+padding-bottom: 145px;
+}
+
+.header-body button{
+    background-color: #eb7d4b;
+    margin-top: 60px;
+    border-bottom: 4px solid #c86a40;
+    cursor: pointer;
+}
+
+
+/* servis css start */
+
+#servis{
+    background-color: #17c2a4;
+}
+
+#servis h1{
+    font: 700 40px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+padding-top: 50px;
+margin: 0 0 30px 0;
+}
+
+#servis hr{
+    display: block;
+    margin: auto;
+    width: 87px;
+    height: 4px;
+background-color: #14a58c;
+border: none;
+}
+
+#servis p{
+    display: block;
+    margin: auto;
+    width: 600px;
+    font: 400 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+text-align: center;
+padding: 33px 0 0 0;
+}
+
+.flag div{
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    padding: 0 0 125px 0;
+}
+
+.flag p{
+    width: 204px !important;
+    font: 300 16px var(--tit);
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+text-align: center;
+}
+
+.flag h2{
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+.pencil p{
+    font: 300 16px var(--tit);
+    width: 204px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+text-align: center;
+padding: 0 0 10px 0;
+}
+
+.pencil h2{
+    font: 700 24px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #ffffff;
+}
+
+
+/* Meet team css start */
+
+#team{
+    background-color: #e7f1f8;
+    padding-bottom: 30px;
+}
+
+.hathaway{
+    margin: 0 100px 0 0;
+}
+
+.kate{
+    margin: 0 100px 0 0;
+}
+
+.olivia{
+    margin: 0 100px 0 0;
+}
+
+.ashley{
+    margin: 0 100px 0 0;
+}
+
+
+#team h1{
+    font: 700 41px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #3c4761;
+text-align: center;
+padding-top: 50px;
+margin: 0 0 30px 0;
+}
+
+#team hr{
+    display: block;
+    margin: auto;
+    width: 87px;
+height: 4px;
+background-color: #bdd1df;
+}
+
+#team p{
+    font: 400 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #3c4761;
+text-align: center;
+margin-top: 30px;
+padding: 0 0 77px 0;
+}
+
+.anne{
+    width: 200px;
+    font: 700 24px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #27283d;
+display: inline-flex;
+}
+
+.hathaway h3{
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+    margin: 40px 0 10px 20px;
+    cursor: pointer;
+}
+
+.hathaway h5{
+    font: 400 16px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #30bae7;
+text-align: center;
+cursor: pointer;
+}
+
+.kate h5{
+    font: 400 16px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #30bae7;
+text-align: center;
+cursor: pointer;
+}
+
+.kate h3{
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+    margin: 40px 0 10px 43px;
+    cursor: pointer;
+}
+
+
+.olivia h3{
+    font: 700 24px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #3c4761;
+margin: 40px 0 10px 40px;
+cursor: pointer;
+}
+
+.olivia h5{
+    font: 400 16px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #30bae7;
+text-align: center;
+cursor: pointer;
+}
+
+.ashley h3{
+    font: 700 24px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #3c4761;
+margin: 40px 0 10px 30px;
+cursor: pointer;
+}
+
+.ashley h5{
+    display: flex;
+    font: 400 16px var(--tit);
+letter-spacing: 0px;
+line-height: 18px;
+color: #30bae7;
+text-align: center;
+margin: 0 0 0 45px;
+cursor: pointer;
+}
+
+.iconlar a{
+    display: inline-block;
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #bdd1df;
+position: relative;
+}
+
+.iconlar i{
+    position: absolute;
+    left: 50%;
+top: 50%;
+padding-top: 15px 15px 10px 15px;
+color: #273a71;
+transform: translate(-50%, -50%);
+}
+
+.picture{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* Portfolio css strat */
+
+
+#portfolio{
+    background-color: #ffdd99;
+}
+
+#portfolio h1{
+    font: 700 40px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #393939;
+text-align: center;
+padding-top: 50px;
+margin: 0 0 30px 0;
+}
+
+.container hr{
+   display: block;
+   margin: auto;
+    width: 87px;
+height: 4px;
+background-color: #e5c37f;
+border: none;
+}
+
+#portfolio .container p{
+    font: 400 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #393939;
+text-align: center;
+margin-top: 30px;
+}
+
+.lists .icons{
+   display: inline-flex;
+   text-align: center;
+   border-radius: 5px;
+   margin: 0 165px 50px 0;
+}
+
+#portfolio .header-body{
+margin: 65px 0 0 0;
+width: 1140px;
+}
+
+#portfolio .header-body .image1{
+    width: 500px;
+    margin: 0 80px 0 0;
+    cursor: pointer;
+}
+
+
+#portfolio .header-body .image2{
+    width: 500px;
+    margin: -294px 70px 0 10px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+
+#portfolio .header-body .image3{
+    width: 500px;
+    margin: 80px 50px 0 0;
+    cursor: pointer;
+}
+
+#portfolio .header-body .image4{
+    width: 500px;
+    margin: -294px 70px 10px 10px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+
+#portfolio button{
+    font: 600 18px var(--tit);
+    width: 293px;
+height: 70px;
+border-radius: 4px;
+background-color: #17c2a4;
+margin: 80px 0 50px 380px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+padding: 20px 40px 25px 40px;
+cursor: pointer;
+}
+
+/* Skills css start */
+
+#skills{
+    background-color: #ffffff;
+}
+
+#skills .container h1{
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 50px;
+    margin: 50px 0 30px 0;
+}
+
+#skills hr{
+    display: block;
+    margin: auto;
+    width: 87px;
+height: 4px;
+background-color: #dfe8ed;
+border: none;
+}
+
+#skills p{
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin: 30px 0 60px 0;
+}
+
+#skills .header-body{
+    display: inline-flex;
+}
+
+#skills .developer{
+    margin: 20px 20px 0 75px;
+}
+
+#skills .html{
+    margin: 20px 20px 0 75px;
+}
+
+#skills .graphic{
+    margin: 20px 20px 0 75px;
+}
+
+#skills .ixux{
+    margin: 20px 20px 0 75px;
+}
+
+
+/* About us css start */
+
+
+#about{
+    background-color: #d74680;
+}
+
+#about .container h1{
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;;
+    text-align: center;
+    margin: 50px 0 30px 0;
+    padding-top: 50px;
+}
+
+#about hr{
+    display: block;
+    margin: auto;
+    width: 87px;
+height: 4px;
+background-color: #b73c6d;
+border: none;
+}
+
+#about p{
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #fbedf3;
+    text-align: center;
+    margin: 30px 0 60px 0;
+}
+
+#about img{
+    border-radius: 17%;
+    margin: 0 0 0 38px;
+    cursor: pointer;
+}
+
+
+#about span{
+    display: inline-block;
+    margin: 0 20px 100px 30px;
+    font: 600 24px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+}
+
+
+#about .text{
+    font-family: MV Boli;
+    font-size:xx-large;
+}
+
+#about .name{
+    font-family: MV Boli;
+    font-size: x-large;
+}
+
+#about .duty{
+    font-family: MV Boli;
+    font-size: larger;
+}
+
+
+/* Get in touch css start */
+
+#touch{
+    background-color: #3c5499;
+}
+
+#touch h1{
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+#touch hr{
+    display: block;
+    margin: auto;
+    width: 87px;
+height: 4px;
+background-color: #273a71;
+border: none;
+}
+
+#touch p{
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin: 30px 0 60px 0;
+}
+
+#touch .inputone{
+    font: 400 18px var(--tit);
+    margin: 20px 37px 20px 250px;
+    padding: 22px 200px 22px 28px;
+    border: none;
+    border-radius: 5px;
+line-height: 18px;
+color: #ffffff;
+background-color: #273a71;
+outline: none;
+}
+
+#touch .inputtwo{
+    font: 400 18px var(--tit);
+    padding: 22px 200px 22px 28px;
+    border: none;
+    border-radius: 5px;
+line-height: 18px;
+color: #ffffff;
+background-color: #273a71;
+outline: none;
+}
+
+#touch .textarea{
+    background-color: #273a71;
+    font: 400 18px var(--tit);
+    margin: 0 0 58px 250px;
+    padding: 24px 407px 8px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#touch button{
+    display: block;
+    margin: auto;
+    font: 600 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+border-radius: 5px;
+border: none;
+border-bottom:#14a58c;
+background-color: #30bae7;
+padding: 27px 75px;
+}
+
+.footer{
+    background-color: #344b8e;
+    padding: 0 0 75px 0;
+}
+
+.foter nav ul li{
+display: inline-flex
+}
+
+.hoverr:hover{
+background-color: #17c2a4;
+border-radius: 5px;
+}
+
+.footer li{
+    margin: 0 66px 0 0;
+}
